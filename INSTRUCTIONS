@@ -1,0 +1,44 @@
+                                                       INSTRUCTIONS
+                                                       ------------
+     
+This document is a guide to installing and running Tic-Tac-Toe 2 Player Game written in grails 1.3.7 using Ext JS as the frontend development framework.
+
+We have harnessed the power of  jQuery as well in the first page to display popup.
+
+The game itself is developed exclusively using Ext JS
+
+TECHNOLOGIES USED
+
+1. Ext JS 4 and above
+2. Grails 1.3.7
+3. Any J2ee-Compatible Application Server .( we have used Apache Tomcat)
+4. MySQL 5
+5. JQuery 1.7.8
+
+INSTALLATION INSTRUCTIONS
+
+1. Download the repository from https://github.com/satyadoorva/Tic-Tac
+2. Unzip the application to a directory of your choice.
+3. Create schema in MySQL using following commands:
+        login into mysql using 
+           1. mysql -h localhost -u root -p
+           2. create schema tic_tac_toe
+4. Make the username/password changes in DataSource.groovy.
+5. Run the application from command prompt using 
+	1. grails run-app
+
+	N.B. - Necessary tables will be created automatically by the application.
+
+
+HOW TO PLAY
+
+1. It is a two-player game.
+2. Create at least two players.
+
+
+THINGS TO DO 
+
+1. Results are updated on refresh. Need to update automatically using Ajax Request. 
+  
+
+	
