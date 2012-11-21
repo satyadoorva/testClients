@@ -40,5 +40,8 @@ THINGS TO DO
 
 1. Results are updated on refresh. Need to update automatically using Ajax Request. 
   
+NOTE
+
+The application is tested for Google Chrome.
 
 	
