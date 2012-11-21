@@ -17,7 +17,7 @@ TECHNOLOGIES USED
 
 INSTALLATION INSTRUCTIONS
 
-1. Download the repository from https://github.com/satyadoorva/Tic-Tac
+1. Download the repository from https://github.com/satyadoorva/testClients
 2. Unzip the application to a directory of your choice.
 3. Create schema in MySQL using following commands:
         login into mysql using 
