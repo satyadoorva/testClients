@@ -28,4 +28,10 @@ grails.project.dependency.resolution = {
 
         // runtime 'mysql:mysql-connector-java:5.1.13'
     }
+
+    grails.plugin.location.'extjs' = "plugins/grails-extjs4-4.1.0-RC.0"
+    grails.plugin.location.'tomcat' = "plugins/tomcat-1.3.7"
+    grails.plugin.location.'hibernate' = "plugins/hibernate-1.3.7"
+    grails.plugin.location.'jQuery' = "plugins/jquery-1.7.1"
+
 }

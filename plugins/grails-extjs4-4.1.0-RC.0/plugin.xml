@@ -1,0 +1,22 @@
+<plugin name='extjs4' version='4.1.0-RC.0' grailsVersion='1.2.0 &gt; *'>
+  <author>Matthias Hryniszak</author>
+  <authorEmail>padcom@gmail.com</authorEmail>
+  <title>Ext JS 4 library resources</title>
+  <description>\
+This plugin provides resources needed to create an Ext JS 4 RIA"
+</description>
+  <documentation>http://grails.org/plugin/extjs4</documentation>
+  <type>Extjs4GrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

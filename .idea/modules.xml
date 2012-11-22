@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/extjs-inplacePlugin.iml" filepath="$PROJECT_DIR$/extjs-inplacePlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate-inplacePlugin.iml" filepath="$PROJECT_DIR$/hibernate-inplacePlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jQuery-inplacePlugin.iml" filepath="$PROJECT_DIR$/jQuery-inplacePlugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticTacToe.iml" filepath="$PROJECT_DIR$/ticTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticTacToe-grailsPlugins.iml" filepath="$PROJECT_DIR$/ticTacToe-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-inplacePlugin.iml" filepath="$PROJECT_DIR$/tomcat-inplacePlugin.iml" />
     </modules>
   </component>
 </project>

@@ -13,12 +13,22 @@
     <meta name="layout" content="main"/>
     <g:javascript src='popup.js'/>
     <script type="text/javascript">
-    function updateOtherPlayer(data){
-        new Ajax.Updater('otherPlayer', './play/otherPlayer?player=' + data, {
-                    method : "post",
-                    evalScripts : true
-                });
-    }
+        function updateOtherPlayer(data) {
+            new Ajax.Updater('otherPlayer', './play/otherPlayer?player=' + data, {
+                        method : "post",
+                        evalScripts : true
+                    });
+        }
+        function validateForm(formData) {
+            if (formData.player1.value == '') {
+                document.getElementById('velidationMsg').innerHTML = 'Please Select Player 1 !';
+                return false;
+            } else if (formData.player2.value == '') {
+                document.getElementById('velidationMsg').innerHTML = 'Please Select Player 2 !';
+                return false;
+            }
+            return true;
+        }
     </script>
 </head>
 

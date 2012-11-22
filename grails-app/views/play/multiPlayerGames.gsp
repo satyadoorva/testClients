@@ -13,8 +13,10 @@
       <meta name="layout" content="main"/>
   </head>
   <body>
-  <g:form controller="play" action="gameInAction">
+  <g:form controller="play" action="gameInAction" onsubmit="return validateForm(this);">
+       <div style="color: red;font-size: 15px;height: 20px;" id="velidationMsg">
 
+       </div>
       <div style="float: left;">
            Select first player: <g:select name="player1" from="${players}" optionKey="userName" optionValue="userName" noSelection="['':'select one']" onchange="updateOtherPlayer(this.value)"/>
        </div>

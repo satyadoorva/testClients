@@ -4,9 +4,9 @@
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
-          <root url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/extjs4-4.1.0-RC.0/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/extjs4-4.1.0-RC.0/grails-app/views" relative="/" />
+          <root url="file://$MODULE_DIR$/plugins/grails-extjs4-4.1.0-RC.0/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/plugins/grails-extjs4-4.1.0-RC.0/grails-app/views" relative="/" />
+          <root url="file://$MODULE_DIR$/plugins/jquery-1.7.1/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -14,29 +14,29 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/extjs4-4.1.0-RC.0">
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/extjs4-4.1.0-RC.0/target/classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/extjs4-4.1.0-RC.0/target/test-classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/extjs4-4.1.0-RC.0/web-app/plugins" />
+    <content url="file://$MODULE_DIR$/plugins/grails-extjs4-4.1.0-RC.0">
+      <excludeFolder url="file://$MODULE_DIR$/plugins/grails-extjs4-4.1.0-RC.0/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/grails-extjs4-4.1.0-RC.0/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/grails-extjs4-4.1.0-RC.0/web-app/plugins" />
     </content>
-    <content url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/hibernate-1.3.7">
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/hibernate-1.3.7/target/classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/hibernate-1.3.7/target/test-classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/hibernate-1.3.7/web-app/plugins" />
+    <content url="file://$MODULE_DIR$/plugins/hibernate-1.3.7">
+      <excludeFolder url="file://$MODULE_DIR$/plugins/hibernate-1.3.7/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/hibernate-1.3.7/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/hibernate-1.3.7/web-app/plugins" />
     </content>
-    <content url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/target/classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/target/test-classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/jquery-1.7.1/web-app/plugins" />
+    <content url="file://$MODULE_DIR$/plugins/jquery-1.7.1">
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jquery-1.7.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/jquery-1.7.1/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/jquery-1.7.1/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/jquery-1.7.1/web-app/plugins" />
     </content>
-    <content url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7">
-      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7/src/groovy" isTestSource="false" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7/target/classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7/target/test-classes" />
-      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7/web-app/plugins" />
+    <content url="file://$MODULE_DIR$/plugins/tomcat-1.3.7">
+      <sourceFolder url="file://$MODULE_DIR$/plugins/tomcat-1.3.7/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/tomcat-1.3.7/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/tomcat-1.3.7/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/tomcat-1.3.7/web-app/plugins" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -44,11 +44,11 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (ticTacToe-grailsPlugins)">
         <CLASSES>
-          <root url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7/lib" />
+          <root url="file://$MODULE_DIR$/plugins/tomcat-1.3.7/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/.grails/1.3.7/projects/ticTacToe/plugins/tomcat-1.3.7/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/plugins/tomcat-1.3.7/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>
