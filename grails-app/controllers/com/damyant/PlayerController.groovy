@@ -6,13 +6,13 @@ class PlayerController {
 
 
     def create = {
-        def playerInstance = new Player()
+        def playerInstance = new com.damyant.Player()
         playerInstance.properties = params
         return [playerInstance: playerInstance]
     }
 
     def save = {
-        def playerInstance = new Player(params)
+        def playerInstance = new com.damyant.Player(params)
         if (playerInstance.save(flush: true)) {
             flash.message = "${message(code: 'default.created.message', args: [message(code: 'player.label', default: 'Player'), playerInstance.userName])}"
             redirect(uri: '/')

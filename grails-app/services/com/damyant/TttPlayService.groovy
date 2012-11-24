@@ -1,7 +1,5 @@
 package com.damyant
 
-import groovyjarjarantlr.collections.List
-
 class TttPlayService {
 
     static transactional = true

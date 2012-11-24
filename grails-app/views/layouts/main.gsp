@@ -7,9 +7,10 @@
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon"/>
     <g:layoutHead/>
     <g:javascript library="application"/>
-    <g:javascript library="jquery" plugin="jquery"/>
+    <g:javascript src="jquery-1.7.1.js" />
+    <g:javascript src="jquery-1.7.1.min.js" />
     <g:javascript src='application.js'/>
-    <g:javascript library="prototype"/>
+    <g:javascript src="prototype.js"/>
 
     <script type="text/javascript">
      var BASE = '${grailsApplication.config.grails.serverURL}';

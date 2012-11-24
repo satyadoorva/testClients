@@ -14,7 +14,7 @@
 <g:javascript src='popup.js'/>
 <g:javascript library="application"/>
 <g:javascript src='application.js'/>
-<g:javascript library="prototype"/>
+<g:javascript src="prototype.js"/>
 <script type="text/javascript">
     var player = 'Player1';
     var playerSine = 'X';
