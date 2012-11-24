@@ -18,7 +18,7 @@ environments {
             driverClassName = "com.mysql.jdbc.Driver"
             url = "jdbc:mysql://localhost/tic_tac_toe"
             username = "root"
-            password = "root123"
+            password = "satya"
         }
     }
     test {
